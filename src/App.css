@@ -1,0 +1,85 @@
+body {
+  font-family: 'open sans', sans-serif;
+  font-size: 16px;
+  background-color: #fff;
+  color:#181818;
+}
+.header{
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0;
+  font-size :3rem;
+}
+
+input.placeholder{
+  color:#181818;
+}
+.Searchbar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
+  font-size: 4rem;
+  padding: 24px 32px 24px 16px;
+  border-radius: 4px 0 0 4px;
+  margin-right: 15px;
+  border: none;
+  outline: none;
+  background: #dadbd3;
+  box-shadow: 12px 12px 32px rgba(13, 39, 80, 0.05), -10px -10px 15px white;
+}
+.Searchbar:hover {
+  box-shadow: inset 4px 4px 8px rgba(13, 39, 80, 0.25),
+    inset -4px -4px 8px white;
+}
+
+.todo-input::placeholder {
+  color: #ededed;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  text-align: left;
+  border-bottom: 2px solid black;
+}
+
+thead button {
+  border: 0;
+  border-radius: none;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: inherit;
+  padding: 0.5em;
+  margin-bottom: 1px;
+}
+button{
+  text-decoration: none;
+  border-radius: 1px solid #484848;
+  outline: none;
+}
+
+thead button.ascending::after {
+  content: '👇';
+  display: inline-block;
+  margin-left: 1em;
+}
+
+
+thead button.descending::after {
+  content: '☝️';
+  display: inline-block;
+  margin-left: 1em;
+}
+
+tbody td {
+  padding: 0.5em;
+  border-bottom: 1px solid #ccc;
+}
+
+tbody tr:hover {
+  background-color: #eee;
+  color :#181818;
+}
